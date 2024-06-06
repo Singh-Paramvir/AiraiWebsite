@@ -1,0 +1,41 @@
+@media screen and (min-width: 1600px) {
+    .form-head{
+        font-size: 3vw;
+        padding-bottom: 1vw;
+    }
+    .form-cont{
+        padding: 0;
+        height: 70vh;
+        width: 50vw;
+    }
+    .fields{
+        height: 80%;
+        width: 80%;
+        margin: 0;
+    }
+    .fields input{
+height: 10vh;
+    }
+    .form{
+        background-color: aqua;
+    }
+}
+
+@media (max-width:600px) {
+    .Contact2{
+        height: auto;
+    }
+   
+    button{
+        height: 3rem;
+        font: 0.8rem;
+        margin-top: 0;
+        margin-bottom: 2vw;
+    }
+    
+}
+@media (max-width:769px) {
+    .contact{
+        height: auto;
+    }
+}

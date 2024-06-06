@@ -1,0 +1,97 @@
+.work-pic{
+  width: 850px;
+  height: 400px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.item2{ 
+  grid-column: 2 / span 2;
+}
+.item3{
+  grid-column: 3 /auto;
+}
+.steps-div2{
+  display: none;
+}
+.step-divs{
+  position: relative;
+  margin-top: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.step-pic {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -80%); 
+
+}
+.step-1{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 16%;
+  top:-8%;
+}
+.step-2{
+  position: absolute;
+  left: 12%;
+  top:16%;
+}
+.step-3{
+  position: absolute;
+  left: 21%;
+  bottom: 34%;
+}
+.step-4{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 22%;
+  top:-11%;
+}
+.step-5{
+  position: absolute;
+  right: 17.5%;
+  top:33%;
+}
+.step-6{
+  position: absolute;
+  right: 22%;
+  bottom: 20%;
+}
+@media (max-width:950px) {
+  .steps-div{
+    display: none;
+  }
+  .steps-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Sec6-div{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Sec6-head{
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .Sec6-div{
+    padding: 4vw 5vw;
+    padding-bottom: 6vw;
+  }
+  .Sec6-head{
+    font-size: 8vw;
+    padding: 0vw;
+  }
+
+}

@@ -1,0 +1,151 @@
+/* Default styles */
+.Choose-head {
+  font-size: 4.7vw;
+}
+
+.why-head {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  font-family: "lato";
+  padding: 20px 0;
+}
+
+.Choose {
+  display: flex;
+  padding: 4px 5vw;
+}
+
+.left {
+  width: 60%;
+  height: auto;
+}
+
+.left h1 {
+  text-align: left;
+  font-size: 75px;
+  font-weight: 700;
+  color: white;
+  padding: 20px 0;
+  line-height: 12vh;
+}
+
+.left h3 {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  padding: 0.5vw 0;
+}
+
+.left p {
+  padding: 1vw 3vw;
+  font-family: 'lato';
+  font-weight: 600;
+  color: white;
+}
+
+.left button {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.rght {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+}
+.rght img{
+  width: auto;
+  height: auto;
+}
+@media screen and (min-width: 1600px) {
+.why-head{
+  font-size: 3vw;
+}
+  .left h1 {
+    font-size: 4vw;
+    line-height: 4vw;
+    
+  }
+  .left h3{
+   
+    font-size: 2vw;
+  }
+  .why-btn p{
+    font-size: 2vw;
+  }
+  .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .About-square{
+    width: 65vw;
+    height: 25vw;
+  }
+  .why-img{
+    width: 45vw;
+  }
+  .why-btn{
+    width: 55vw;
+  }
+}
+@media screen and (max-width: 769px) {
+  .Choose {
+    flex-direction: column;
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left, .rght {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 48px;
+    line-height: 8vh;
+    text-align: center;
+  }
+  .left h3{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .left{
+    padding-bottom: 3vw;
+  }
+  .left h1 {
+    font-size: 36px;
+    line-height: 6vh;
+  }
+
+  .left h3 {
+    font-size: 1rem;
+  }
+
+  .left h6 {
+    padding: 0.5vw 1vw;
+  }
+.About-square{
+  margin: 1.5vw 0;
+}
+  .rght {
+    background-size: 48%; /* Adjust the size as needed */
+    background-position: center;
+  }
+
+}
+

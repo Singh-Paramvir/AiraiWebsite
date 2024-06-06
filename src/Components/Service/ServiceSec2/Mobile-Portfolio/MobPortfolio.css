@@ -1,0 +1,401 @@
+    /* Images css start here */
+    .MobimagesCarousel {
+        /* width: 100%;
+        height: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .MobSlider-Container {
+        /* width: 100%;
+        height: 100vh; */
+        position: relative;
+        overflow: hidden;
+        /* display: flex;
+        flex-wrap: wrap; */
+      }
+
+
+      .Leftarrow-Mob {
+        position: absolute;
+        top: 50%;
+        left: 0.5%;
+        padding-bottom: 2px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        width: 1.5%;
+        z-index: 10;
+      }
+      .Rightarrow-Mob {
+        position: absolute;
+        top: 50%;
+        right: 0.5%;
+        padding-bottom: 2px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        width: 1.5%;
+        z-index: 10;
+      }
+
+      .ImgSlide {
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+       z-index: 1;
+       background-size: cover;
+      }
+
+      .BgImg-imageMob{
+        /* position: absolute; */
+         width: 100%;
+        height: 100vh;
+      }
+      
+      .ImgSlide-imagemob1 {
+        position: absolute;
+        top: 23%;
+        left:11%;
+        bottom: 0;
+        animation: fadeIn 5s ease-in-out;
+        /* animation: fadeIn3 10s ease-in-out; */
+        z-index: 1;
+        }
+      .ImgSlide-imagemob2 {
+        position: absolute;
+        top: 19%;
+        left: 25%;
+       
+        animation: zoom-in-zoom-out 2s ease-out ;
+        z-index: 2;
+      }
+      .ImgSlide-imagemob3 {
+        position: absolute;
+        top: 15%;
+        left: 41%;
+        /* animation: fadeIn2 1s ease-in-out; */
+        z-index:3;
+      }
+      .ImgSlide-imagemob4 {
+        position: absolute;
+        top: 19%;
+        right: 25%;
+        animation: zoom-in-zoom-out 2s ease-out;
+        z-index: 2;
+      }
+      @keyframes zoom-in-zoom-out {
+        0% {
+          transform: scale(0.5, 0.5);
+        }
+        50% {
+          transform: scale(0.7, 0.7);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+      .ImgSlide-imagemob5 {
+        position: absolute;
+        top: 23%;
+        right:11%;
+        bottom: 0;
+        animation: fadeIn2 5s ease-in-out;
+        z-index: 1;
+      }
+     
+      .ImgSlide-imagemob6 {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        bottom: 0%;
+        animation: fadeIn 5s ease-in-out;
+        z-index: 2;
+      }
+      .ImgSlide-imagemob7 {
+        position: absolute;
+        bottom: 51.5%;
+        right: 10%;
+        animation: fadeIn 1s ease-in-out;
+        animation: bannermove 7s linear infinite;
+        z-index: 1;
+      }
+      .ImgSlide-imagemob8 {
+        position: absolute;
+        top: 51.5%;
+        right: 10%;
+        animation: fadeIn 1s ease-in-out;
+        animation: bannermove 7s linear infinite;
+        z-index: 1;
+      }
+      @keyframes bannermove {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-50%);
+        }
+      }
+      /* Slide 3rd images css start here */
+      .ImgSlide-imagemob9 {
+        position: absolute;
+        top: 3%;
+        left:0%;
+        animation: mover 1s infinite  alternate;
+        z-index: 1;
+      }
+      .ImgSlide-imagemob10 {
+        position: absolute;
+        top: 0%;
+        left: 28%;
+        animation: mover 1s infinite  alternate;
+        z-index: 1;
+      }
+      .ImgSlide-imagemob11 {
+        position: absolute;
+        top: 42%;
+        left: 5%;
+        animation: mover 2s infinite  alternate;
+        z-index: 1;
+      }
+      .ImgSlide-imagemob12 {
+        position: absolute;
+        top: 0%;
+        right: 9%;
+        animation: mover 2s infinite  alternate;
+        z-index: 1;
+      }
+      .ImgSlide-imagemob13 {
+        position: absolute;
+       top:  44%;
+        right: 32%;
+        animation: mover 2s infinite  alternate;
+        z-index: 1;
+      }
+      .ImgSlide-imagemob14 {
+        position: absolute;
+        bottom:  3%;
+        right: 0%;
+        animation: mover 2s infinite  alternate;
+        z-index: 1;
+      }
+      @keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      @keyframes fadeIn2 {
+        0% {
+          opacity: 0;
+          transform: translateX(80px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      @keyframes fadeIn3 {
+        0% {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes slideIn {
+        0% {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      .ImgSlideMob-content {
+        color: #eeeaea;
+              position: absolute;
+              top: 0%;
+              left: 11.5%;
+              right: 3%;
+              padding-top: 0rem;
+              display: block;
+              margin-top: 0%;
+              /* margin-left: 60px; */
+              z-index: 5;
+              width: 100%;
+              height:100%;
+            }
+            .ImgSlideMob-title {
+                width: 100%;
+                max-width: 50rem;
+                font-size: 4.15rem;
+                /* line-height: 0.8rem; */
+                font-weight:600;
+                text-transform: capitalize;
+                display: inline;
+                animation: slideIn 3s ease-in-out;
+            }
+            /* Slide 2nd titlwe text css start here */
+           
+          .ImgSlideMob2-content {
+            color: #020202;
+                    position: absolute;
+                    top: 0%;
+                    left: 7%;
+                    margin-top: 3%;
+                    z-index: 5;
+                    width: 25%;
+                    height: 30%;
+                    text-align: left;
+                }
+
+                .ImgSlideMob2-title {
+                  text-align: left;
+                  width: 100%;
+                  max-width: 50rem;
+                  font-size: 3.5rem;
+                  line-height: 4.5rem;
+                  font-weight: 700;
+                  animation: slideIn 3s ease-in-out;
+              }
+              .ImgSlideMob2-title span {
+                text-align: left;
+               color: #eeeaea;
+            }
+
+          /* Slide 2nd titlwe text css ended here  */
+            .ImgSlide3-content {
+              color: #020202;
+                    position: absolute;
+                    top: 0%;
+                    left: 7%;
+                    margin-top: -1.3%;
+                    /* margin-left: 60px; */
+                    z-index: 5;
+                    width: 25%;
+                    height: 30%;
+                  }
+                  .ImgSlide3-title {
+                    width: 100%;
+                    max-width: 50rem;
+                    font-size: 3rem;
+                    line-height: 3rem;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    /* display: inline; */
+                    animation: slideIn 6s ease-in-out;
+                  }
+      .OtherText {
+        position: absolute;
+        top: 10px; /* Adjust the distance from the top */
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        z-index: 1;
+      }
+
+      .OtherText-Content {
+        font-size: 3rem;
+        line-height: 20px;
+        color: #fff;
+      }
+      @media (max-width: 850px){
+      .Leftarrow-Mob{
+        position: absolute;
+        top: 50%;
+        left: 0.5%;
+        cursor: pointer;
+        width: 2.8%;
+        z-index: 10;
+      }
+      }
+      @media (max-width: 600px) {
+        .ImgSlide-imagemob {
+          position: absolute;
+          top: 40%;
+          right: 30%;
+          width: 38vh;
+          bottom: 0;
+          height: 100vw;
+          /* object-fit: cover; */
+          /* filter: brightness(0.2); */
+          animation: fadeIn 5s ease-in-out;
+          z-index: 3;
+        }
+        .ImgSlide-imagemob2 {
+          position: absolute;
+          top: 33%;
+          right: 1%;
+          width: 55vh;
+          height: 100vw;
+          /* object-fit: cover; */
+          /* filter: brightness(0.6); */
+          animation: fadeIn 1s ease-in-out;
+          z-index: 2;
+        }
+        .ImgSlide-content {
+          color: #eeeaea;
+                position: absolute;
+                /* bottom: 55%; */
+                left: 0%;
+                right: 18%;
+                top:1%;
+                margin-top: 1%;
+                margin-left: 7%;
+                margin-right: 5%;
+                z-index: 5;
+                width: 50vh;
+                height: 60%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 1rem;
+                text-align: center;
+                padding: 1rem;
+                animation: slideIn 6s ease-in-out;
+              }
+              .ImgSlide-desc {
+               margin-top: -8%;
+               width: 100%;
+               max-width: 100%;
+               font-size: 15px;
+               font-weight: 500;
+               animation: slideIn 7s ease-in-out;
+              }
+      }
+      @media (max-width: 1250px) {
+        .ImgSlider-container{
+          height: auto;
+        }
+         .ImgSlide{
+          height: auto;
+        }
+        .SingleImg {
+          display: block;
+          width: 100%;
+        }
+       .ImgSlideMob-content{
+        display: none;
+       }
+      }
+      
+      @keyframes fade {
+        from {
+          opacity: 0.8;
+        }
+        to {
+          opacity: 1;
+        }
+      }

@@ -1,0 +1,26 @@
+.marquee{
+    display: flexbox;
+  }
+  .marquee-container {
+  overflow: hidden;
+  width: 100%;
+  opacity: 1;
+  height: 100px;
+  }
+
+  
+  .image-wrapper img {
+    margin: 0 3rem;
+    transition: filter 0.3s ease;
+   
+  }
+
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

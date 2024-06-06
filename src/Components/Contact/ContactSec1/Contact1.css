@@ -1,0 +1,41 @@
+@media screen and (min-width: 1600px) {
+    .Contact1-head {
+        font-size: 3vw;
+    }
+    .needs-p1{
+        font-size: 4vw;
+    }
+    .needs-p2{
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+    .contact1-img{
+        width: 20vw;
+    }
+}
+
+
+@media (max-width:769px) {
+    .Contact1-data{
+        padding: 0.5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Contact1-head{
+        padding: 0.8rem 0;
+    }
+    .needs{
+        margin: 0rem 0.8rem;
+      padding: 1rem 1rem;
+    }
+    .needs p{
+        padding-top: 0.3rem;
+        text-align: center;
+    }
+    .contact1-img{
+        width: 85vw;
+    }
+}

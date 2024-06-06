@@ -1,0 +1,13 @@
+.Get-Box{
+width:350px;
+height: 450px;
+padding: 0;
+}
+@media screen and (max-width: 769px) {
+    .get-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,45 @@
+/* Sec31.css */
+
+.Slides {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 -10px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 250px; /* Adjust width to accommodate for padding and margin */
+  margin: 0 10px; 
+  background-color: aqua;
+}
+
+.slide-image {
+  max-width: 100px;
+  margin-right: 20px;
+  height: auto;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.slide-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.slide-content p {
+  margin: 0;
+  font-size: 1rem;
+}

@@ -1,0 +1,32 @@
+@media (max-width:769px) {
+    .foter-detail{
+        padding: 2rem 1rem 2rem 2rem;
+    }
+    .media-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .logo-Comp{
+        width: 55vw;
+        height: 100%;
+    }
+    .logo-div{
+        padding: 0;
+        margin: 0;
+       width: 60vw;
+    }
+    .follow{
+        padding: 0;
+    }
+    .address p{
+        padding-right: 2rem;
+    }
+    .media img{
+        padding-right: 0.58rem;
+    }
+    .copyright{
+        padding: 0 2vw;
+    }
+}
